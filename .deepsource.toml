@@ -14,3 +14,5 @@ enabled = true
 
   [analyzers.meta]
   import_path = "github.com/cruise-automation/rbacsync"
+  [analyzers.meta.dependencies]
+    checked_into_vcs = true
